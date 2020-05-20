@@ -1,0 +1,55 @@
+.item {
+  height: 40px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: green;
+}
+
+.border {
+  border-bottom: 2px solid black;
+  margin: 0 20px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.info {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}

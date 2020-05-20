@@ -1,0 +1,80 @@
+.item {
+  height: 90px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.border {
+  border-bottom: 1px solid black;
+  margin: 0 20px;
+}
+
+.item:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  cursor: default;
+}
+
+.info {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default;
+}
+
+.sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  color: orange;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.enable {
+  width: 70px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+  background: green;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.disable {
+  width: 70px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+  background: grey;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: white;
+}
